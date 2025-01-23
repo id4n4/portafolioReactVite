@@ -1,9 +1,9 @@
+import { Navbar } from "./sections/Navbar"
+
 export const App = () => {
   return (
-    <main className="max-w-7xl mx-auto">
-      <h1 className="text-2xl text-white underline">
-        Hello, three.js
-      </h1>
+    <main className="mx-auto max-w-7xl">
+      <Navbar />
     </main>
   )
 }
